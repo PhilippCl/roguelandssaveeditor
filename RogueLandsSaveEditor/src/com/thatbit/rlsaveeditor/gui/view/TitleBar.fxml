@@ -27,6 +27,6 @@
             </Menu>
          </menus>
       </MenuBar>
-      <StackPane fx:id="containerPane" />
+      <StackPane fx:id="containerPane" VBox.vgrow="ALWAYS" />
    </children>
 </VBox>
