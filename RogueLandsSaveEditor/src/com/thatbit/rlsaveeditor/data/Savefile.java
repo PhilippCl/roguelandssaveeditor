@@ -58,6 +58,8 @@ public class Savefile {
 			db.parseString(this.matcher.group());
 			this.parsedData.add(db);
 		}
+		if(this.parsedData.isEmpty())
+			throw new IOException("No Valid Savefile");
 	}
 	
 	//Returns the data as plain String
