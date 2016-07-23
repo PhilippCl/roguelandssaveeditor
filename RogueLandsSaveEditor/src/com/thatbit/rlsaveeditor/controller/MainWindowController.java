@@ -19,7 +19,7 @@ public class MainWindowController implements Initializable,ControlledScreen {
 	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		assert charOneTab != null : "fx:id \"charOneTab\" was not injected! 'LangExcerciseView.fxml'";
+		assert charOneTab != null : "fx:id \"charOneTab\" was not injected! 'MainWindow.fxml'";
 	}
 
 	@Override

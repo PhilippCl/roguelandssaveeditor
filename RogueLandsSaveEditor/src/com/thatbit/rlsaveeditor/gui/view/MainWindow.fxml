@@ -5,12 +5,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-
-<AnchorPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thatbit.rlsaveditor.controller.MainWindowController">
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thatbit.rlsaveeditor.controller.MainWindowController">
    <children>
-      <VBox prefHeight="200.0" prefWidth="100.0">
+      <VBox>
          <children>
-            <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+            <TabPane tabClosingPolicy="UNAVAILABLE">
               <tabs>
                 <Tab fx:id="charOneTab" text="Character 1">
                   <content>
