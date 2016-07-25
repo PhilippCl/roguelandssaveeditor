@@ -23,6 +23,7 @@ public class RoguelandsSaveEditor extends Application{
 	//Only for testing ... not final 
 	public static Savefile sf;
 	public static int charNum = 0;
+	public static boolean unsavedChanges = false;
 
 
 	public RoguelandsSaveEditor(){
