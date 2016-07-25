@@ -42,7 +42,7 @@
             </AnchorPane>
             <AnchorPane GridPane.rowIndex="1">
                <children>
-                  <Button mnemonicParsing="false" text="Character 3" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" fx:id="xharThreeButton" />
+                  <Button fx:id="charThreeButton" mnemonicParsing="false" text="Character 3" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
                </children>
             </AnchorPane>
             <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="1">

@@ -20,8 +20,8 @@ public class RoguelandsSaveEditor extends Application{
 
 	private String version = "0.1";
 
-	//Only for testing
-	private Savefile sf;
+	//Only for testing ... not final 
+	public static Savefile sf;
 
 
 	public RoguelandsSaveEditor(){

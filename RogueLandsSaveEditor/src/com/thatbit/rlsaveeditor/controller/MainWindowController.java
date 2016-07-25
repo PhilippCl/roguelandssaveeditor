@@ -3,6 +3,7 @@ package com.thatbit.rlsaveeditor.controller;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import com.thatbit.rlsaveeditor.RoguelandsSaveEditor;
 import com.thatbit.rlsaveeditor.extern.ControlledScreen;
 import com.thatbit.rlsaveeditor.extern.ScreensController;
 
@@ -37,6 +38,25 @@ public class MainWindowController implements Initializable,ControlledScreen {
 		assert charFourButton != null : "fx:id \"charFourButton\" was not injected! 'MainWindow.fxml'";
 		assert charFiveButton != null : "fx:id \"charFiveButton\" was not injected! 'MainWindow.fxml'";
 		assert charSixButton != null : "fx:id \"charSixButton\" was not injected! 'MainWindow.fxml'";
+		
+		if(!RoguelandsSaveEditor.sf.hasValue("0name")){
+			charOneButton.setDisable(true);
+		}
+		if(!RoguelandsSaveEditor.sf.hasValue("1name")){
+			charTwoButton.setDisable(true);
+		}
+		if(!RoguelandsSaveEditor.sf.hasValue("2name")){
+			charThreeButton.setDisable(true);
+		}
+		if(!RoguelandsSaveEditor.sf.hasValue("3name")){
+			charFourButton.setDisable(true);
+		}
+		if(!RoguelandsSaveEditor.sf.hasValue("4name")){
+			charFiveButton.setDisable(true);
+		}
+		if(!RoguelandsSaveEditor.sf.hasValue("5name")){
+			charSixButton.setDisable(true);
+		}
 		
 		charOneButton.setOnAction(new EventHandler<ActionEvent>() {
 			
