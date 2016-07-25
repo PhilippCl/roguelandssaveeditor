@@ -22,16 +22,17 @@ public class RoguelandsSaveEditor extends Application{
 
 	//Only for testing ... not final 
 	public static Savefile sf;
+	public static int charNum = 0;
 
 
 	public RoguelandsSaveEditor(){
 	}
 
 	public void init(File file){
-		this.sf = new Savefile();
+		RoguelandsSaveEditor.sf = new Savefile();
 		try {
-			this.sf.readFile(file.getAbsolutePath());
-			this.sf.parseData();
+			RoguelandsSaveEditor.sf.readFile(file.getAbsolutePath());
+			RoguelandsSaveEditor.sf.parseData();
 		} catch (IOException e) {
 			Alert errorInfo = new Alert(AlertType.ERROR);
 			errorInfo.setHeaderText("Invalid File");

@@ -27,13 +27,13 @@
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField GridPane.columnIndex="1" />
+            <TextField fx:id="nameField" GridPane.columnIndex="1" />
             <Label text="Race:" GridPane.rowIndex="1">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <ComboBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="raceComboBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label text="Inventory:" GridPane.rowIndex="2" GridPane.valignment="TOP">
                <font>
                   <Font size="20.0" />
