@@ -1,8 +1,11 @@
 # Roguelands Saveeditor
-Simple Saveeditor for the game Roguelands, built with Java. GUI created with JavaFX
+(Currently incomplete) Saveeditor for the game Roguelands, built with Java. GUI created with JavaFX
+![Preview](http://i.imgur.com/jnM5IIn.png)
 
 # Setup
-Will be added soon
+Download the Source
+Compile with Java8 & JavaFX
+Run and select PlayerPrefs File
 
 #Credits
 [/u/SacredMercy](https://www.reddit.com/u/SacredMercy) for his [Item ID List](https://www.reddit.com/r/RogueLands/comments/4r9d4s/roguelands_item_id_list/) which helped me alot.
